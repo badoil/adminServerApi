@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 0
+    },
+    "password": {
+      "type": "string",
+      "minLength": 0
+    },
+    "name": {
+      "type": "string",
+      "minLength": 0
+    },
+    "email": {
+      "type": "string",
+      "minLength": 0
+    },
+    "mobile": {
+      "type": "string",
+      "minLength": 0
+    }
+  },
+  "example": {
+    "id": "test@naver.com",
+    "password": "123123",
+    "name": "test",
+    "email": "test@naver.com",
+    "mobile": "01039121987"
+  }
+}

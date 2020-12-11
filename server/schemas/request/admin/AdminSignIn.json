@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {  
+    "id": {
+      "type": "string",
+      "minLength":1    
+    },
+    "password": {
+      "type": "string",
+      "minLength":1    
+    },
+    "email":{
+      "type": "string",
+      "minLength":1    
+    },
+    "mobile":{
+      "type": "string",
+      "minLength":1    
+    }
+  },
+  "example": {
+  	"id":"asdf",
+    "password": "1234",
+    "email":"sd50712321@naver.com",
+    "mobile":"01050405445"    
+  }
+}

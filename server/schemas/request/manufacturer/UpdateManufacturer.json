@@ -1,0 +1,88 @@
+{
+    "type": "object",
+    "properties": {
+        "mfr_id": {
+            "type": "number",
+            "minLength": 0
+        },
+        "mfr_name": {
+            "type": "string",
+            "minLength": 0
+        },
+        "mfr_overview": {
+            "type": "string",
+            "minLength": 0
+        },
+        "mfr_dets_explan": {
+            "type": "string",
+            "minLength": 0
+        },
+        "mfr_img": {
+            "type": "string",
+            "minLength":1
+        },
+        "mfr_zip_code": {
+            "type": "string",
+            "minLength": 0
+        },
+        "mfr_base_addr": {
+            "type": "string",
+            "minLength": 0
+        },
+        "mfr_dets_addr": {
+            "type": "string",
+            "minLength": 0
+        },
+        "mfr_email": {
+            "type": "string",
+            "minLength": 0
+        },
+        "mfr_phone": {
+            "type": "string",
+            "minLength": 0
+        },
+        "mgr_name": {
+            "type": "string",
+            "minLength": 0
+        },
+        "mgr_phone": {
+            "type": "number",
+            "minLength": 0
+        },
+        "mgr_mobi": {
+            "type": "number",
+            "minLength": 0
+        },
+        "first_create_user": {
+            "type": "string",
+            "minLength": 0
+        },
+        "first_create_dt_time": {
+            "type": "string",
+            "minLength": 0
+        },
+        "last_mod_user": {
+            "type": "string",
+            "minLength": 0
+        },
+        "last_mod_dt_time": {
+            "type": "string",
+            "minLength": 0
+        }
+    },
+    "example": {
+        "mfr_id": 1,
+        "mfr_name": "echo",
+        "mfr_overview": "good",
+        "mfr_dets_explan": "very Good",
+        "mfr_img": "image",
+        "mfr_zip_code": "231-32",
+        "mfr_base_addr": "서울",
+        "mfr_dets_addr": "서울 강남",
+        "mfr_email": "seoul@naver.com",
+        "mfr_phone": "01023988475",
+        "mgr_name": "dongwon",
+        "mgr_phone": "02453897",
+        "mgr_mobi": "01012903478"
+    }
+}

@@ -1,0 +1,440 @@
+{
+    "type": "object",
+    "properties": {
+      "goods" :{
+        "type": "array",
+        "minLength": 0,
+        "items": {
+          "type": "object",
+          "properties": {
+            "goods_id": {
+              "type": "number",
+              "minLength":0
+            },
+            "erp_code": {
+              "type": "number",
+              "minLength":0    
+            },
+            "sel_price_code": {
+              "type": "string",
+              "minLength":0    
+            },
+            "pb_classif": {
+              "type": "string",
+              "minLength":0    
+            },
+            "erp_classif": {
+              "type": "string",
+              "minLength":0    
+            },
+            "sel_phar_classif": {
+              "type": "string",
+              "minLength":0    
+            },
+            "onr_goods_code": {
+              "type": "number",
+              "minLength":0    
+            },
+            "suppl_goods_code": {
+              "type": "number",
+              "minLength":0    
+            },
+            "exp_seq": {
+              "type": "number",
+              "minLength":0    
+            },
+            "suppl_code": {
+              "type": "number",
+              "minLength":0    
+            },
+            "repr_cat_id": {
+              "type": "number",
+              "minLength":0    
+            },
+            "goods_name": {
+              "type": "string",
+              "minLength":0    
+            },
+            "goods_overview": {
+              "type": "string",
+              "minLength":0    
+            },
+            "goods_state_code": {
+              "type": "string",
+              "minLength":0    
+            },
+            "stock_qty": {
+              "type": "number",
+              "minLength":0    
+            },
+            "md_com": {
+              "type": "string",
+              "minLength":0    
+            },
+            "dets_info": {
+              "type": "string",
+              "minLength":0    
+            },
+            "orig_price": {
+              "type": "number",
+              "minLength":0    
+            },
+            "sales_unit_price": {
+              "type": "number",
+              "minLength":0    
+            },
+            "pur_price": {
+              "type": "number",
+              "minLength":0    
+            },
+            "mfr_id": {
+              "type": "number",
+              "minLength":0  
+            },
+            "brand_id": {
+              "type": "number",
+              "minLength":0  
+            },
+            "goods_compo_unit_classif_code": {
+              "type": "string",
+              "minLength":0    
+            },
+            "goods_compo_qty": {
+              "type": "string",
+              "minLength":0    
+            },
+            "repr_img": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_img_1": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_img_2": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_img_3": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_img_4": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_img_5": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_img_6": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_img_7": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_img_8": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_img_9": {
+              "type": "string",
+              "minLength":0    
+            },
+            "repr_timg": {
+              "type": "string",
+              "minLength":0
+            },
+            "add_timg_1": {
+              "type": "string",
+              "minLength":0
+            },
+            "add_timg_2": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_timg_3": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_timg_4": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_timg_5": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_timg_6": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_timg_7": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_timg_8": {
+              "type": "string",
+              "minLength":0    
+            },
+            "add_timg_9": {
+              "type": "string",
+              "minLength":0    
+            },
+            "review_cnt": {
+              "type":"number",
+              "minLength": 0
+            },
+            "pur_cnt": {
+              "type":"number",
+              "minLength": 0
+            },
+            "ns_cxn_cat_id": {
+              "type": "number",
+              "minLength": 0
+            },
+            "sabang_cxn_cat_id": {
+              "type": "number",
+              "minLength": 0
+            },
+            "first_create_user": {
+              "type": "string",
+              "minLength": 0
+            },
+            "last_mod_user": {
+              "type": "string",
+              "minLength": 0
+            },
+            "last_mod_dt_time": {
+              "type": "string",
+              "minLength": 0
+            },
+            "hot_deal_or_not": {
+              "type": "string",
+              "minLength": 0
+            },
+            "hot_deal_expr_ts": {
+              "type": "string",
+              "minLength": 0
+            },
+            "ac_tgt_goods_or_not": {
+              "type": "string",
+              "minLength": 0
+            },
+            "goods_size": {
+              "type": "string",
+              "minLength": 0
+            },
+            "max_acc_amt": {
+              "type": "number",
+              "minLength": 0
+            },
+            "deal_classif": {
+              "type": "string",
+              "minLength": 0
+            },
+            "deal_opt_id": {
+              "type": "number",
+              "minLength": 0
+            },
+            "deal_disc_price": {
+              "type": "number",
+              "minLength": 0
+            }
+          }
+        }
+      }
+    },
+    "example": {
+      "goods": [
+        {
+          "goods_id": 324,
+          "erp_code": 1,
+          "sel_price_code": 1,
+          "pb_classif": 1,
+          "erp_classif": 1,
+          "sel_phar_classif": 1,
+          "onr_goods_code": 1, 
+          "suppl_goods_code": 1,
+          "exp_seq": 1,
+          "suppl_code": 1,
+          "repr_cat_id": 1,
+          "goods_name": "[뉴트리디데이] 베이비 앤 키즈 프로폴리스 스프레이 대용량 500mg, 1개",
+          "goods_overview": "안국건강 베스트 1위상품",
+          "goods_state_code": 1,
+          "stock_qty": 500,
+          "md_com": "최고의 상품",
+          "dets_info": "프로폴리스",
+          "orig_price": 25000,
+          "sales_unit_price": 25000,
+          "pur_price": 25000,
+          "mfr_id": 1,
+          "brand_id": 1,
+          "goods_compo_unit_classif_code": 1,
+          "goods_compo_qty": 10,
+          "repr_img": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_4": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_5": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_6": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_7": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_8": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_9": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "repr_timg": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_4":"https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_5": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_6": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_7": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_8": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_9": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "review_cnt":50,
+          "pur_cnt": 400,
+          "ns_cxn_cat_id": 1,
+          "sabang_cxn_cat_id": 1, 
+          "first_create_user": "홍길동", 
+          "first_create_dt_time": "",
+          "last_mod_user":"홍길동",
+          "last_mod_dt_time": "",
+          "hot_deal_or_not": "y",
+          "hot_deal_expr_ts":"",
+          "ac_tgt_goods_or_not": "y",
+          "goods_size": "500 mg x 60정(30 g) ,6박스",
+          "max_acc_amt": 2000, 
+          "deal_classif": 1,
+          "deal_opt_id": 1,
+          "deal_disc_price": 25000
+        },
+        {
+          "goods_id": 435,
+          "erp_code": 2,
+          "sel_price_code": 2,
+          "pb_classif": 2,
+          "erp_classif": 2,
+          "sel_phar_classif": 2,
+          "onr_goods_code": 2, 
+          "suppl_goods_code": 2,
+          "exp_seq": 2,
+          "suppl_code": 2,
+          "repr_cat_id": 2,
+          "goods_name": "비타민마을 와이즈 타트체리 정 6박스(총12개월분)",
+          "goods_overview": "안국건강 베스트 five",
+          "goods_state_code": 2,
+          "stock_qty": 1000,
+          "md_com": "품절임박",
+          "dets_info": "타트체리분말파우더",
+          "orig_price": 10000,
+          "sales_unit_price": 8000,
+          "pur_price": 5000,
+          "mfr_id": 2,
+          "brand_id": 2,
+          "goods_compo_unit_classif_code": 2,
+          "goods_compo_qty": 20,
+          "repr_img": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_4": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_5": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_6": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_7": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_8": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_img_9": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "repr_timg": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_4":"https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_5": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_6": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_7": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_8": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "add_timg_9": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+          "review_cnt": 22,
+          "pur_cnt": 4200,
+          "ns_cxn_cat_id": 2,
+          "sabang_cxn_cat_id": 2, 
+          "first_create_user": "김실장", 
+          "first_create_dt_time": "",
+          "last_mod_user":"김실장",
+          "last_mod_dt_time": "",
+          "hot_deal_or_not": "y",
+          "hot_deal_expr_ts":"",
+          "ac_tgt_goods_or_not": "y",
+          "goods_size": "500 mg x 80정(30 g) ,10박스",
+          "max_acc_amt": 300,
+          "deal_classif": 1,
+          "deal_opt_id": 1,
+          "deal_disc_price": 15000
+        },
+        {
+            "goods_id": 384,
+            "erp_code": 3,
+            "sel_price_code": 3,
+            "pb_classif": 3,
+            "erp_classif": 3,
+            "sel_phar_classif": 3,
+            "onr_goods_code": 3, 
+            "suppl_goods_code": 3,
+            "exp_seq": 3,
+            "suppl_code": 3,
+            "repr_cat_id": 3,
+            "goods_name": "비타민마을 와이즈 타트체리 정 4박스(총8개월분)",
+            "goods_overview": "안국건강 베스트 1위상품",
+            "goods_state_code": 3,
+            "stock_qty": 9000,
+            "md_com": "(주)비타민마을",
+            "dets_info": "면역력",
+            "orig_price": 29900,
+            "sales_unit_price": 5900,
+            "pur_price": 4000,
+            "mfr_id": 3,
+            "brand_id": 3,
+            "goods_compo_unit_classif_code": 3,
+            "goods_compo_qty": 10,
+            "repr_img": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_img_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_img_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_img_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_img_4": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_img_5": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_img_6": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_img_7": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_img_8": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_img_9": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "repr_timg": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_timg_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_timg_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_timg_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_timg_4":"https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_timg_5": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_timg_6": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_timg_7": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_timg_8": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "add_timg_9": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+            "review_cnt": 90,
+            "pur_cnt": 30,
+            "ns_cxn_cat_id": 3,
+            "sabang_cxn_cat_id": 3, 
+            "first_create_user": "박사장", 
+            "first_create_dt_time": "",
+            "last_mod_user":"박사장",
+            "last_mod_dt_time": "",
+            "hot_deal_or_not": "y",
+            "hot_deal_expr_ts":"",
+            "ac_tgt_goods_or_not": "y",
+            "goods_size": "500 mg x 60정(30 g) ,4박스",
+            "max_acc_amt": 1000,
+            "deal_classif": 1,
+            "deal_opt_id": 1,
+            "deal_disc_price": 45000
+          }
+      ]
+    }
+  }

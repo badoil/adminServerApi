@@ -1,0 +1,217 @@
+{
+    "type": "object",
+    "properties": {
+      "order_state_code": {
+        "type": "number",
+        "minLength":1    
+      },
+      "order_classif_code": {
+        "type": "number",
+        "minLength":1    
+      },
+      "cust_id": {
+        "type": "number",
+        "minLength":1    
+      },
+      "order_dt": {
+        "type": "string",
+        "minLength":0  
+      },
+      "order_amt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "used_acc_amt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "used_sp_acc_amt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "deliv_amt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "pymt_way_code": {
+        "type": "number",
+        "minLength":1    
+      },
+      "pymt_amt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "sabang_order_id": {
+        "type": "string",
+        "minLength":1    
+      },
+      "sabang_cxn_ecomm_order_id": {
+        "type": "string",
+        "minLength":1    
+      },
+      "sabang_cxn_ecomm_user_id": {
+        "type": "string",
+        "minLength":1    
+      },
+      "sabang_cxn_ecomm_name": {
+        "type": "string",
+        "minLength":1    
+      },
+      "sabang_order_coll_ts": {
+        "type": "string",
+        "minLength":0
+      },
+      "sabang_order_conf_ts": {
+        "type": "string",
+        "minLength":0  
+      },
+      "non_mbr_indv_info_coll_agrmt_or_not": {
+        "type": "string",
+        "minLength":0   
+      },
+      "pur_cond_agrmt_or_not": {
+        "type": "string",
+        "minLength":0   
+      },
+      "orderer_name": {
+        "type": "string",
+        "minLength":1    
+      },
+      "orderer_mobi": {
+        "type": "string",
+        "minLength":1    
+      },
+      "orderer_email": {
+        "type": "string",
+        "minLength":1    
+      },
+      "rcpt_name": {
+        "type": "string",
+        "minLength":1    
+      },
+      "rcpt_mobi": {
+        "type": "string",
+        "minLength":1    
+      },
+      "rcpt_phone": {
+        "type": "string",
+        "minLength":1    
+      },
+      "rcpt_email": {
+        "type": "string",
+        "minLength":1    
+      },
+      "rcpt_zip_code": {
+        "type": "string",
+        "minLength":1    
+      },
+      "rcpt_base_addr": {
+        "type": "string",
+        "minLength":1    
+      },
+      "rcpt_dets_addr": {
+        "type": "string",
+        "minLength":1    
+      },
+      "deliv_rqmt_select_msg": {
+        "type": "string",
+        "minLength":1    
+      },
+      "deliv_rqmt_drt_msg": {
+        "type": "string",
+        "minLength":1    
+      },
+      "first_create_user": {
+        "type": "string",
+        "minLength": 0
+      },
+      "first_create_dt_time": {
+        "type": "string",
+        "minLength": 0
+      },
+      "last_mod_user": {
+        "type": "string",
+        "minLength": 0
+      },
+      "last_mod_dt_time": {
+        "type": "string",
+        "minLength": 0
+      },
+      "order_dets_id": {
+        "type": "number",
+        "minLength":1    
+      },
+      "deal_id": {
+        "type": "number",
+        "minLength":1    
+      },
+      "deal_opt_id": {
+        "type": "number",
+        "minLength":1    
+      },
+      "pur_cnt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "pur_amt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "disc_amt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "deliv_company_code": {
+        "type": "number",
+        "minLength":1    
+      },
+      "inv_num": {
+        "type": "number",
+        "minLength":1    
+      }
+    },
+    "example": {
+      "order_state_code": 8,
+      "order_classif_code": 5,
+      "cust_id": 35,
+      "order_dt": "",
+      "order_amt": 80,
+      "used_acc_amt": 293,
+      "used_sp_acc_amt": 590,
+      "deliv_amt": 2500,
+      "pymt_way_code": "3",
+      "pymt_amt": 40000,
+      "sabang_order_id": "test@naver.com",
+      "sabang_cxn_ecomm_order_id": "test@naver.com",
+      "sabang_cxn_ecomm_user_id": "test@naver.com",
+      "sabang_cxn_ecomm_name": "sabang",
+      "sabang_order_coll_ts": "",
+      "sabang_order_conf_ts": "",
+      "non_mbr_indv_info_coll_agrmt_or_not": "",
+      "pur_cond_agrmt_or_not": "",
+      "orderer_name": "홍길동",
+      "orderer_mobi": "01067548234",
+      "orderer_email": "hong@naver.com",
+      "rcpt_name": "홍길동",
+      "rcpt_mobi": "01058398823",
+      "rcpt_phone": "025632285",
+      "rcpt_email": "hong1@naver.com",
+      "rcpt_zip_code": "25-95",
+      "rcpt_base_addr": "서울시",
+      "rcpt_dets_addr": "서울시 영등포구",
+      "deliv_rqmt_select_msg": "없음",
+      "deliv_rqmt_drt_msg": "없음",
+      "first_create_user": "홍길동",
+      "first_create_dt_time": "",
+      "last_mod_user": "홍길동",
+      "last_mod_dt_time": "",
+      "order_dets_id": 15,
+      "deal_id": 157,
+      "deal_opt_id": 157,
+      "pur_cnt": 400,
+      "pur_amt": 300,
+      "disc_amt": 2500,
+      "deliv_company_code": 25,
+      "inv_num": 223
+    }
+  }

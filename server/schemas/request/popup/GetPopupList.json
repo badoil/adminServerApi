@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {  
+    "popup_id": {
+      "type": "string",
+      "minLength":0    
+    },
+    "srch_cnt": {
+      "type": "string",
+      "minLength":0    
+    },
+    "page": {
+      "type": "string",
+      "minLength":0    
+    }
+  }
+  }

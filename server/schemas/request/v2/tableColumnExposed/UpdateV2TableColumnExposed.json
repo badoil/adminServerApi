@@ -1,0 +1,59 @@
+{
+  "type": "object",
+  "properties": {
+    "cust_idx": {
+      "type": "string",
+      "minLength":1    
+    },
+    "tbl_idx": {
+      "type": "string",
+      "minLength":1    
+    },
+    "column_list" :{
+      "type": "array",
+      "minLength": 0,
+      "items": {
+        "type": "object",
+        "properties": {
+          "tbl_culum_idx": {
+              "type": "string",
+              "minLength": 0
+          },
+          "fix": {
+              "type": "string",
+              "minLength": 0
+          }
+        }
+      }
+    },
+    "first_create_user": {
+      "type": "string",
+      "minLength": 0
+    },
+    "last_mod_user": {
+      "type": "string",
+      "minLength": 0
+    },
+    "last_mod_dt_time": {
+      "type": "string",
+      "minLength": 0
+    }
+  },
+  "example": {
+    "cust_idx": "1",
+    "tbl_idx": "1",
+    "deal_list": [{
+      "tbl_culum_idx": 1,
+      "fix": "Y"
+    },{
+      "tbl_culum_idx": 2,
+      "fix": "N"
+    },{
+      "tbl_culum_idx": 3,
+      "fix": "Y"
+    }],
+    "first_create_user": "홍길동", 
+    "last_mod_user":"홍길동",
+    "last_mod_dt_time": ""
+  }
+}

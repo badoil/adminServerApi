@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {  
+      "idx_array": {
+        "type": "array",
+        "minLength": 0,
+        "items": {
+          "type": "number"
+        }
+      }  
+    },
+    "example": {
+      "idx_array": [1, 3, 2]
+    }
+  }

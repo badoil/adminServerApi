@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+      "cust_id": {
+        "type": "string",
+        "minLength": 0
+      },
+      "password": {
+        "type": "string",
+        "minLength": 0
+      }
+    },
+    "example": {
+      "cust_id": "star",
+      "password": "1234"
+    }
+  }

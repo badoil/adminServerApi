@@ -1,0 +1,87 @@
+{
+    "type": "object",
+    "properties": {
+        "popup_id": {
+            "type": "number",
+            "minLength": 0
+          },
+        "popup_name": {
+            "type": "string",
+            "minLength": 0
+          },
+        "exp_or_not": {
+            "type": "string",
+            "minLength": 0
+          },
+        "scroll_or_not": {
+            "type": "string",
+            "minLength": 0
+          },
+        "exp_type_code": {
+            "type": "string",
+            "minLength": 0
+          },
+        "win_width": {
+            "type": "number",
+            "minLength": 0
+          },
+        "win_height": {
+            "type": "number",
+            "minLength": 0
+          },
+        "win_horiz_pos": {
+            "type": "number",
+            "minLength": 0
+          },
+        "win_vert_pos": {
+            "type": "number",
+            "minLength": 0
+          },
+        "dets_info": {
+            "type": "string",
+            "minLength": 0
+          },
+        "exp_tgt_code": {
+            "type": "string",
+            "minLength": 0
+          },
+        "exp_start_ts": {
+            "type": "string",
+            "minLength": 0
+          },
+        "exp_end_ts": {
+            "type": "string",
+            "minLength": 0
+          },
+        "first_create_user": {
+            "type": "string",
+            "minLength": 0
+        },
+        "last_mod_user": {
+            "type": "string",
+            "minLength": 0
+        },
+        "last_mod_dt_time": {
+            "type": "string",
+            "minLength": 0
+        }
+    },
+    "example": {
+      "popup_id": 1,
+      "popup_name": 1,
+      "exp_or_not": 12341,
+      "scroll_or_not": 1,
+      "exp_type_code": "1",
+      "win_width": 70,
+      "win_height": 80,
+      "win_horiz_pos": 1000, 
+      "win_vert_pos": 600,
+      "dets_info": "blah blah",
+      "exp_tgt_code": "1",
+      "exp_start_ts": "",
+      "exp_end_ts": "",
+      "first_create_user": "홍길동", 
+      "last_mod_user":"홍길동",
+      "last_mod_dt_time": ""
+    }
+  }

@@ -1,0 +1,76 @@
+{
+  "type": "object",
+  "properties": {
+    "term_start_dt": {
+      "type": "string",
+      "description":"기간시작날짜"
+    },
+    "term_end_dt": {
+      "type": "string"
+    },
+    "suppl_code": {
+      "type": "string",
+      "description":"공급업체 코드"
+    },
+    "name": {
+      "type": "string",
+      "description":"검색개수"
+    },
+    "suppl_id": {
+      "type": "string",
+      "description":"공급업체 아이디"
+    },
+    "suppl_idx": {
+      "type": "number",
+      "description":"인덱스"
+    },
+    "mgr_name": {
+      "type": "string",
+      "description":"공급업체 아이디"
+    },
+    "email": {
+      "type": "string",
+      "description":"공급업체 아이디"
+    },
+    "mgr_mobi": {
+      "type": "string",
+      "description":"공급업체 아이디"
+    },
+    "cs_phone": {
+      "type": "string",
+      "description":"공급업체 아이디"
+    },
+    "charged_md": {
+      "type": "string",
+      "description":"공급업체 아이디"
+    },
+    "company_base_addr": {
+      "type": "string",
+      "description":"검색개수"
+    },
+    "company_dets_addr": {
+      "type": "string",
+      "description":"검색개수"
+    },
+    "srch_all": {
+      "type": "string",
+      "description":"전체 검색"
+    },
+    "srch_orderby": {
+      "type": "string",
+      "description":"검색기준"
+    },
+    "srch_seq": {
+      "type": "string",
+      "description":"검색순서"
+    },
+    "srch_cnt": {
+      "type": "number",
+      "description":"검색개수"
+    },
+    "page": {
+      "type": "number",
+      "description":"페이지"
+    }
+  }
+}

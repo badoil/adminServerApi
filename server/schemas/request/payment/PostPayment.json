@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {  
+    "name": {
+      "type": "string",
+      "minLength":1    
+    },
+    "bank": {
+      "type": "string",
+      "minLength":1    
+    },
+    "amount": {
+      "type": "number",
+      "minimum":1    
+    },
+    "academy": {
+      "type": "string",
+      "minLength":1    
+    }
+  },
+  "example": {
+    "name": "이다한",
+    "bank": "기업은행",
+    "amount": 30000
+  }
+}

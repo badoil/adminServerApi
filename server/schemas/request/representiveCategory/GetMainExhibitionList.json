@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "cat_id": {
+      "type": "string",
+      "minLength":1    
+    },  
+    "prnt_cat_id": {
+      "type": "string",
+      "minLength":1    
+    }
+  },
+  "example": {      
+    "prnt_cat_id": 1
+  }
+}

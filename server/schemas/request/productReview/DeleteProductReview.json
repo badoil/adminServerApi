@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+      "goods_review_id": {
+        "type": "number"
+      }
+    },
+    "required": ["goods_review_id"]
+}

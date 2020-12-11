@@ -1,0 +1,61 @@
+{
+    "type": "object",
+    "properties": {
+      "term_start_dt": {
+        "type": "string",
+        "minLength": 0
+      },
+      "term_end_dt": {
+        "type": "string",
+        "minLength": 0
+      },
+      "order_idx": {
+        "type": "number"
+      },
+      "order_num": {
+        "type": "string"
+      },
+      "cust_name": {
+        "type": "string"
+      },
+      "cust_id": {
+        "type": "string"
+      },
+      "mobile": {
+        "type": "number"
+      },
+      "rcpt_name": {
+        "type": "string"
+      },
+      "goods_name": {
+        "type": "string"
+      },
+      "suppl_code": {
+        "type": "string"
+      },
+      "order_classif_code": {
+        "type": "string"
+      },
+      "order_state_code": {
+        "type": "number"
+      },
+      "srch_orderby": {
+        "type": "string"
+      },
+      "srch_seq": {
+        "type": "string"
+      },
+      "srch_cnt":{
+        "type":"number"
+      },
+      "srch_kwd":{
+        "type":"string"
+      },
+      "page": {
+        "type": "number"
+      },
+      "pymt_way_code": {
+        "type": "number"
+      }
+    }
+  }

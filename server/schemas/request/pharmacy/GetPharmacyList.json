@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "properties": {
+    "phar_idx": {
+      "type": "number",
+      "description":"인덱스"
+    },
+    "term_start_dt": {
+      "type": "string",
+      "description":"기간시작날짜"
+    },
+    "term_end_dt": {
+      "type": "string"
+    },
+    "srch_orderby": {
+      "type": "string",
+      "description":"검색기준"
+    },
+    "srch_seq": {
+      "type": "string",
+      "description":"검색순서"
+    },
+    "phar_id": {
+      "type": "string",
+      "description":"검색개수"
+    },
+    "name": {
+      "type": "string",
+      "description":"검색개수"
+    },
+    "phar_base_addr": {
+      "type": "string",
+      "description":"검색개수"
+    },
+    "phar_dets_addr": {
+      "type": "string",
+      "description":"검색개수"
+    },
+    "affiliation": {
+      "type": "string",
+      "description":"소속지부"
+    },
+    "charged_sv": {
+      "type": "string",
+      "description":"담당SV"
+    },
+    "srch_all": {
+      "type": "string",
+      "description":"전체 검색"
+    },
+    "mbr_code": {
+      "type": "string",
+      "description":"전체 검색"
+    },
+    "srch_cnt": {
+      "type": "string",
+      "description":"검색개수"
+    },
+    "page": {
+      "type": "number"
+    }
+  }
+}

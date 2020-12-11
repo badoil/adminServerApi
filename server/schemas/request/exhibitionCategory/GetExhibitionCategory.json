@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {  
+    "exhib_id": {
+      "type": "number",
+      "minLength":0    
+    },
+    "srch_cnt": {
+      "type": "number",
+      "minLength":0    
+    },
+    "page": {
+      "type": "number",
+      "minLength":0    
+    }
+  }
+}

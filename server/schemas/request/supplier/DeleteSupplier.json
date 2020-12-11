@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+      "suppl_idx": {
+        "type": "number"
+      }
+    },
+    "required": ["suppl_idx"]
+}

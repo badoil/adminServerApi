@@ -1,0 +1,246 @@
+[
+	{
+		"idx": [
+			"96739179"
+		],
+		"order_id": [
+			"3000079102664"
+		],
+		"mall_id": [
+			"shop0075"
+		],
+		"mall_user_id": [
+			"lab100"
+		],
+		"order_status": [
+			"002"
+		],
+		"user_id": [
+			""
+		],
+		"user_name": [
+			"이용원"
+		],
+		"user_tel": [
+			"0502-0274-3329"
+		],
+		"user_cel": [
+			"0502-0274-3329"
+		],
+		"user_email": [
+			"ku*****@na"
+		],
+		"receive_tel": [
+			"0502-0274-3329"
+		],
+		"receive_cel": [
+			"0502-0274-3329"
+		],
+		"receive_email": [
+			""
+		],
+		"delv_msg": [
+			"문 앞116724      아이폰앱"
+		],
+		"receive_name": [
+			"시민로132번길 34"
+		],
+		"receive_zipcode": [
+			"11697"
+		],
+		"receive_addr": [
+			"경기도 의정부시 시민로132번길 34 휴스테이 802호 ( 의정부동 )"
+		],
+		"total_cost": [
+			"68000"
+		],
+		"pay_cost": [
+			"68000"
+		],
+		"order_date": [
+			"20200819003148"
+		],
+		"ORDER_ETC_2": [
+			"10572860864"
+		],
+		"ORDER_ETC_3": [
+			"0"
+		],
+		"ORDER_ETC_5": [
+			""
+		],
+		"ORDER_ETC_9": [
+			""
+		],
+		"partner_id": [
+			""
+		],
+		"dpartner_id": [
+			""
+		],
+		"mall_product_id": [
+			"1405667934"
+		],
+		"sale_cnt": [
+			"2"
+		],
+		"delivery_method_str": [
+			"유료"
+		],
+		"delv_cost": [
+			"2500"
+		],
+		"compayny_goods_cd": [
+			"116724"
+		],
+		"mall_order_seq": [
+			"70434820486"
+		],
+		"sku_value": [
+			"단품"
+		],
+		"order_gubun": [
+			"001"
+		],
+		"reg_date": [
+			"20200819090018"
+		],
+		"ord_confirm_date": [
+			"20200819090536"
+		],
+		"delivery_id": [
+			""
+		],
+		"delv_msg1": [
+			"문 앞"
+		],
+		"etc_msg": [
+			"116724      아이폰앱"
+		],
+		"invoice_no": [
+			""
+		]
+	},
+	{
+		"idx": [
+			"96738725"
+		],
+		"order_id": [
+			"3310456729"
+		],
+		"mall_id": [
+			"shop0002"
+		],
+		"mall_user_id": [
+			"lab100on"
+		],
+		"order_status": [
+			"002"
+		],
+		"user_id": [
+			"tnw*******"
+		],
+		"user_name": [
+			"최수지"
+		],
+		"user_tel": [
+			""
+		],
+		"user_cel": [
+			"010-3165-9497"
+		],
+		"user_email": [
+			""
+		],
+		"receive_tel": [
+			"010-3165-9497"
+		],
+		"receive_cel": [
+			"010-3165-9497"
+		],
+		"receive_email": [
+			""
+		],
+		"delv_msg": [
+			"일반주문"
+		],
+		"receive_name": [
+			"최연우"
+		],
+		"receive_zipcode": [
+			"322-22"
+		],
+		"receive_addr": [
+			"충청남도 홍성군 홍성읍 문화로 168 원광명식당"
+		],
+		"total_cost": [
+			"3900"
+		],
+		"pay_cost": [
+			"3900"
+		],
+		"order_date": [
+			"20200818235718"
+		],
+		"ORDER_ETC_2": [
+			""
+		],
+		"ORDER_ETC_3": [
+			""
+		],
+		"ORDER_ETC_5": [
+			""
+		],
+		"ORDER_ETC_9": [
+			"2020-08-18 23:57:20"
+		],
+		"partner_id": [
+			""
+		],
+		"dpartner_id": [
+			""
+		],
+		"mall_product_id": [
+			"1778712345"
+		],
+		"sale_cnt": [
+			"1"
+		],
+		"delivery_method_str": [
+			"선불"
+		],
+		"delv_cost": [
+			"2500"
+		],
+		"compayny_goods_cd": [
+			"116142"
+		],
+		"mall_order_seq": [
+			"ESM"
+		],
+		"sku_value": [
+			""
+		],
+		"order_gubun": [
+			"001"
+		],
+		"reg_date": [
+			"20200819085854"
+		],
+		"ord_confirm_date": [
+			"20200819092227"
+		],
+		"delivery_id": [
+			""
+		],
+		"delv_msg1": [
+			""
+		],
+		"etc_msg": [
+			"일반주문"
+		],
+		"invoice_no": [
+			""
+		]
+    }
+]

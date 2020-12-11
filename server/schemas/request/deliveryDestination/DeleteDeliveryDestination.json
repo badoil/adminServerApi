@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+      "deliv_dest_idx": {
+        "type": "number"
+      }
+    },
+    "required": ["deliv_dest_idx"]
+}

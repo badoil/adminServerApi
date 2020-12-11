@@ -1,0 +1,70 @@
+{
+  "type": "object",
+  "properties": {
+    "id_array": {
+      "type": "array",
+      "minLength": 0,
+      "items": {
+        "type": "number"
+      }
+    },
+    "goods_idx": {
+      "type": "number",
+      "minLength": 0
+    },
+    "goods_name": {
+      "type": "string",
+      "minLength": 0
+    },
+    "suppl_name": {
+      "type": "string",
+      "minLength": 0
+    },
+    "brand_name": {
+      "type": "string",
+      "minLength": 0
+    },
+    "mfr_name": {
+      "type": "string",
+      "minLength": 0
+    },
+    "term_start_dt": {
+      "type": "string",
+      "minLength": 0
+    },
+    "term_end_dt": {
+      "type": "string",
+      "minLength": 0
+    },
+    "repr_cat_id": {
+      "type": "number"
+    },
+    "mfr_id": {
+      "type": "number"
+    },
+    "goods_state_code": {
+      "type": "string"
+    },
+    "srch_orderby": {
+      "type": "string"
+    },
+    "srch_seq": {
+      "type": "string"
+    },
+    "srch_cnt":{
+      "type":"number"
+    },
+    "srch_kwd":{
+      "type":"string"
+    },
+    "stock_qty": {
+      "type": "number"
+    },
+    "page": {
+      "type": "number"
+    }
+  },
+  "example": {
+    "id_array": [1, 3, 2]
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {  
+      "mfr_idx": {
+        "type": "string",
+        "minLength":1    
+      }
+    },
+    "example": {      
+      "mfr_idx": 1
+    }
+}

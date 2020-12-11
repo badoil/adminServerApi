@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {  
+      "deal_detail_idx": {
+        "type": "number",
+        "minLength":1    
+      }
+    },
+    "example": {      
+      "deal_detail_idx": 1
+    }
+  }

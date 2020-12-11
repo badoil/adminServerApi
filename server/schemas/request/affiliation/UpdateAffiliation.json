@@ -1,0 +1,30 @@
+
+  {
+    "type": "object",
+    "properties": {  
+      "affiliation": {
+        "type": "array",
+        "minLength": 0,
+        "items": {
+          "type": "object",
+          "properties": {
+            "aff_idx": {
+              "type": "string",
+              "minLength": 0
+            },
+            "name": {
+              "type": "string",
+              "minLength": 0            
+            }
+          }
+        }
+      }  
+    },
+    "example": {
+      "affiliation": [
+        {"aff_idx": "2", "name": "test2"},
+        {"aff_idx": "3", "name": "test3"},
+        {"aff_idx": "4", "name": "test4"}      
+      ]
+    }
+  }

@@ -1,0 +1,122 @@
+{
+    "type": "object",
+    "properties": {
+      "goods_review_id": {
+        "type": "number",
+        "minLength":0
+      },
+      "goods_id": {
+        "type": "number",
+        "minLength":0
+        },
+      "cust_idx": {
+        "type": "string",
+        "minLength":0
+      },
+      "rating": {
+        "type": "number",
+        "minLength":0
+      },
+      "dets_review_cont": {
+        "type": "string",
+        "minLength":0
+      },
+      "best_review_or_not": {
+        "type": "string",
+        "minLength":0
+      },
+      "worst_review_or_not": {
+        "type": "string",
+        "minLength":0
+      },
+      "acq_acc_amt": {
+        "type": "number",
+        "minLength":0
+      },
+      "repr_img": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_img_1": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_img_2": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_img_3": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_img_4": {
+        "type": "string",
+        "minLength":0    
+      },
+      "repr_timg": {
+        "type": "string",
+        "minLength":0
+      },
+      "add_timg_1": {
+        "type": "string",
+        "minLength":0
+      },
+      "add_timg_2": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_timg_3": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_timg_4": {
+        "type": "string",
+        "minLength":0    
+      },
+      "review_video": {
+        "type": "string",
+        "minLength":0    
+      },
+      "review_video_timg": {
+        "type": "string",
+        "minLength":0    
+      },
+      "first_create_user": {
+        "type": "string",
+        "minLength": 0
+      },
+      "last_mod_user": {
+        "type": "string",
+        "minLength": 0
+      },
+      "last_mod_dt_time": {
+        "type": "string",
+        "minLength": 0
+      }
+    },
+    "example": {
+      "goods_review_id": 1,
+      "goods_id": 1,
+      "cust_idx": 1,
+      "rating": 1,
+      "dets_review_cont": "건강에 좋고 피부에 좋습니다",
+      "best_review_or_not": "N",
+      "worst_review_or_not": "N",
+      "acq_acc_amt": 1000, 
+      "repr_img": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_4": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "repr_timg": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_4":"https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "review_video":"",
+      "review_video_timg": "",
+      "first_create_user": "홍길동", 
+      "last_mod_user":"홍길동",
+      "last_mod_dt_time": ""
+    }
+  }

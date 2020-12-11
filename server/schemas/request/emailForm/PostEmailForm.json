@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {  
+    "email_form": {
+      "type": "string",
+      "minLength": 0
+    }    
+  },
+  "example": {
+    "email_form": "sdfsdfsdfsdfsdf"
+  }
+}

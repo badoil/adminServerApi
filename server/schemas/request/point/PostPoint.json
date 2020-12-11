@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {  
+    "cust_idx": {
+      "type": "number",
+      "minimum":0    
+    },
+    "cust_name": {
+      "type": "string",
+      "minimum":0    
+    },
+    "point_cat": {
+      "type": "string",
+      "minimum":0    
+    },
+    "amt": {
+      "type": "number",
+      "minimum":0    
+    },
+    "used_cat": {
+      "type": "string",
+      "minLength":1
+    },
+    "cont": {
+      "type": "string",
+      "minLength":1
+    }
+  },
+  "example": {
+    "cust_idx": "1",
+    "cust_name": "홍길동",
+    "point_cat": "1",
+    "amt": 500,
+    "used_cat": "1",
+    "cont": "고객"
+  }
+}

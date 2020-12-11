@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+      "deal_idx": {
+        "type": "number"
+      }
+    },
+    "required": ["deal_idx"]
+}

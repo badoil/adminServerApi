@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {  
+      "goods_review_id": {
+        "type": "string",
+        "minLength":0    
+      },
+      "sort_keyword":{
+        "type": "string",
+        "minLength": 0  
+      },
+      "best_review_or_not":{
+        "type": "string",
+        "minLength": 0  
+      },
+      "goods_id": {
+        "type": "string",
+        "minLength": 0  
+      }, 
+      "srch_cnt": {
+        "type": "number",
+        "minLength": 0  
+      },
+      "page": {
+        "type": "number",
+        "minLength": 0  
+      }
+    }
+  }

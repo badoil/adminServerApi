@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "properties": {  
+      "name": {
+        "type": "string",
+        "minimum":0    
+      },
+      "sv_code": {
+        "type": "number",
+        "minimum":0    
+      },
+      "view_seq": {
+        "type": "number",
+        "minimum":0    
+      },
+      "join_cnt": {
+          "type": "number",
+          "minimum":0
+      }
+    },
+    "example": {
+      "name": "강남",
+      "sv_code": 23098,
+      "view_seq": 1,
+      "join_cnt": 1
+    }
+  }

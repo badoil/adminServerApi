@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "properties": {
+      "term_start_dt": {
+        "type": "string",
+        "description":"기간시작날짜"
+      },
+      "term_end_dt": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string",
+        "description":"이름"
+      },
+      "rep_name": {
+        "type": "string",
+        "description":"이름"
+      },
+      "srch_cnt": {
+        "type": "number",
+        "description": "검색개수"
+      },
+      "page": {
+        "type": "number"
+      }
+    }
+  }

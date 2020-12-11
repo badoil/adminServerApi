@@ -1,0 +1,112 @@
+{
+    "type": "object",
+    "properties": {
+      "suppl_id": {
+        "type": "string",
+        "minLength": 0
+      },
+      "password": {
+        "type": "string",
+        "minLength": 0
+      },
+      "name": {
+        "type": "string",
+        "minLength": 0
+      },
+      "email": {
+        "type": "string",
+        "minLength": 0
+      },
+      "suppl_code": {
+        "type": "string",
+        "minLength": 0
+      },
+      "charged_md": {
+        "type": "string",
+        "minLength": 0
+      },
+      "biz_reg_num":{
+        "type": "string",
+        "minLength": 0
+      },
+      "Suppl_name":{
+        "type": "string",
+        "minLength": 0
+      },
+      "rep_name": {
+        "type": "string",
+        "minLength": 0
+      },
+      "mgr_name": {
+        "type": "string",
+        "minLength": 0
+      },
+      "business_status": {
+        "type": "string",
+        "minLength": 0
+      },
+      "business_type": {
+        "type": "string",
+        "minLength": 0
+      },
+      "cs_phone": {
+        "type": "string",
+        "minLength": 0
+      },
+      "fax": {
+        "type": "string",
+        "minLength": 0
+      },
+      "mgr_mobi":{
+        "type": "string",
+        "minLength": 0
+      },
+      "stlmt_mgr_mobi": {
+        "type": "string",
+        "minLength": 0
+      },
+      "order_mgr_mobi": {
+        "type": "string",
+        "minLength": 0
+      },
+      "company_zip_code": {
+        "type": "string",
+        "minLength": 0
+      },
+      "company_base_addr": {
+        "type": "string",
+        "minLength": 0
+      },
+      "company_dets_addr": {
+        "type": "string",
+        "minLength": 0
+      },
+      "memo": {
+        "type": "string",
+        "minLength": 0
+      }
+    },
+    "example": {
+        "suppl_id": "1",
+        "password": "1234",
+        "name": "hong",
+        "email": "hong@naver.com",
+        "suppl_code": "1",
+        "charged_md": "hong",
+        "biz_reg_num": "2",
+        "Suppl_name": "seol",
+        "rep_name": "gong",
+        "mgr_name": "home",
+        "business_status": "phar",
+        "business_type": "phar",
+        "cs_phone": "023949432",
+        "fax": "023247883",
+        "mgr_mobi": "01023458382",
+        "stlmt_mgr_mobi": "01093240239",
+        "order_mgr_mobi": "01073482093",
+        "company_zip_code": "239-32",
+        "company_base_addr": "seoul",
+        "company_dets_addr": "gangnam seoul",
+        "memo":"memo"
+    }
+  }

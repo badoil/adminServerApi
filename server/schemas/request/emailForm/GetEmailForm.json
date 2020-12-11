@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+      "email_form_idx": {
+        "type": "string"
+      }      
+    },
+    "example": {
+      "email_form_idx": "1"      
+    }
+    
+  }

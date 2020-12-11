@@ -1,0 +1,72 @@
+{
+    "type": "object",
+    "properties": {
+        "deliv_dest_idx": {
+            "type": "number",
+            "minLength": 0
+        },
+        "cust_idx": {
+            "type": "number",
+            "minLength": 0
+        },
+        "dflt_deliv_dest_or_not": {
+            "type": "string",
+            "minLength": 0
+        },
+        "rcpt_name": {
+            "type": "string",
+            "minLength": 0
+        },
+        "rcpt_mobi": {
+            "type": "string",
+            "minLength": 0
+        },
+        "rcpt_phone": {
+            "type": "string",
+            "minLength": 0
+        },
+        "rcpt_email": {
+            "type": "string",
+            "minLength": 0
+        },
+        "rcpt_zip_code": {
+            "type": "string",
+            "minLength": 0
+        },
+        "rcpt_base_addr": {
+            "type": "string",
+            "minLength": 0
+        },
+        "rcpt_dets_addr": {
+            "type": "string",
+            "minLength": 0
+        },
+        "first_create_user": {
+            "type": "string",
+            "minLength": 0
+        },
+        "last_mod_user": {
+            "type": "string",
+            "minLength": 0
+        },
+        "last_mod_dt_time": {
+            "type": "string",
+            "minLength": 0
+        }
+    },
+    "example": {
+        "deliv_dest_idx": 1,
+        "cust_idx": 1,
+        "dflt_deliv_dest_or_not": "Y",
+        "rcpt_name": "jon",
+        "rcpt_mobi": "01034904578",
+        "rcpt_phone": "027329943",
+        "rcpt_email": "jon@naver.com",
+        "rcpt_zip_code": "80-123",
+        "rcpt_base_addr": "서울시", 
+        "rcpt_dets_addr": "서울시 영등포구",
+        "first_create_user": "홍길동", 
+        "last_mod_user":"홍길동",
+        "last_mod_dt_time": ""
+    }
+  }

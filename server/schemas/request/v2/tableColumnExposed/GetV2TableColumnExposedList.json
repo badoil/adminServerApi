@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {  
+      "idx": {
+        "type": "number",
+        "minLength":0
+      },
+      "tbl_idx": {
+        "type": "string",
+        "minLength":0
+      },
+      "cust_idx": {
+        "type": "string",
+        "minLength":0
+      },
+      "tbl_culum_idx": {
+        "type": "string",
+        "minLength":0
+      }
+    }
+  }

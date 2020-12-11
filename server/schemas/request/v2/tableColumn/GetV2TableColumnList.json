@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {  
+      "idx": {
+        "type": "number",
+        "minLength":0
+      },
+      "tbl_idx": {
+        "type": "string",
+        "minLength":0
+      },
+      "tbl_culum": {
+        "type": "string",
+        "minLength":0
+      }
+    }
+  }

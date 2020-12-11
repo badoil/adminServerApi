@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {  
+      "admin_idx": {
+        "type": "string",
+        "minLength":0    
+      }
+    }
+  }

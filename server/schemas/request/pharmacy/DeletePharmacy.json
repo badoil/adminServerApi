@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+      "phar_idx": {
+        "type": "number"
+      }
+    },
+    "required": ["phar_idx"]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description":"이름"
+    },
+    "aff_code": {
+      "type": "string",
+      "description":"코드"
+    },
+    "aff_idx": {
+      "type": "string",
+      "description":"인덱스"
+    },
+    "srch_cnt": {
+      "type": "number",
+      "description": "검색개수"
+    },
+    "page": {
+      "type": "number"
+    }
+  }
+}

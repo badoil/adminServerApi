@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description":"이름"
+    },
+    "sv_code": {
+      "type": "string",
+      "description":"코드"
+    },
+    "sv_idx": {
+      "type": "string",
+      "description":"인덱스"
+    }
+  }
+}

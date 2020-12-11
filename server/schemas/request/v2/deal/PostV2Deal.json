@@ -1,0 +1,228 @@
+{
+    "type": "object",
+    "properties": {
+      "deal_id": {
+        "type": "number",
+        "minLength":1    
+      },
+      "deal_classif": {
+        "type": "number",
+        "minLength":1    
+      },
+      "deal_opt_id": {
+        "type": "number",
+        "minLength":1    
+      },
+      "hot_deal_or_not": {
+        "type": "string",
+        "minLength":1    
+      },
+      "hot_deal_expr_ts": {
+        "type": "string",
+        "minLength":0  
+      },
+      "ac_tgt_goods_or_not": {
+        "type": "string",
+        "minLength":1    
+      },
+      "deal_state_code": {
+        "type": "number",
+        "minLength":1    
+      },
+      "deal_name": {
+        "type": "string",
+        "minLength":1    
+      },
+      "deal_overview": {
+        "type": "string",
+        "minLength":1    
+      },
+      "deal_disc_price": {
+        "type": "number",
+        "minLength":1    
+      },
+      "orig_price": {
+        "type": "number",
+        "minLength":1    
+      },
+      "sp_disc_price": {
+        "type": "number",
+        "minLength":1    
+      },
+      "view_cnt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "shr_cnt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "pur_cnt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "wish_cnt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "free_deliv_or_not": {
+        "type": "string",
+        "minLength":1    
+      },
+      "deliv_amt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "repr_cat_id": {
+        "type": "number",
+        "minLength":1    
+      },
+      "max_acc_amt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "repr_img": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_1": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_2": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_3": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_4": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_5": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_6": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_7": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_8": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_img_9": {
+        "type": "string",
+        "minLength":1    
+      },
+      "repr_timg": {
+        "type": "string",
+        "minLength":1
+      },
+      "add_timg_1": {
+        "type": "string",
+        "minLength":1
+      },
+      "add_timg_2": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_3": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_4": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_5": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_6": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_7": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_8": {
+        "type": "string",
+        "minLength":1    
+      },
+      "add_timg_9": {
+        "type": "string",
+        "minLength":1    
+      },
+      "first_create_user": {
+        "type": "string",
+        "minLength": 0
+      },
+      "first_create_dt_time": {
+        "type": "string",
+        "minLength": 0
+      },
+      "last_mod_user": {
+        "type": "string",
+        "minLength": 0
+      },
+      "last_mod_dt_time": {
+        "type": "string",
+        "minLength": 0
+      }
+    },
+    "example": {
+      "deal_id": 1,
+      "deal_classif": 1, 
+      "deal_opt_id": 1,
+      "hot_deal_or_not": 1,
+      "hot_deal_expr_ts": "",
+      "ac_tgt_goods_or_not": 1,
+      "sabang_cxn_or_not": "N",
+      "deal_state_code": 1,
+      "deal_name": "핫딜",
+      "deal_overview": "핫딜핫딜",
+      "deal_disc_price": 5000,
+      "orig_price": 1,
+      "sp_disc_price": 10000,
+      "view_cnt": 1,
+      "shr_cnt": 1,
+      "pur_cnt": 1,
+      "wish_cnt": 1,
+      "free_deliv_or_not": "Y",
+      "deliv_amt": 2500,
+      "repr_cat_id": 1,
+      "max_acc_amt": 1000,
+      "repr_img": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_4": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_5": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_6": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_7": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_8": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_9": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "repr_timg": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_4":"https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_5": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_6": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_7": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_8": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_9": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "first_create_user": "홍길동", 
+      "first_create_dt_time": "",
+      "last_mod_user":"홍길동",
+      "last_mod_dt_time": ""
+    }
+  }

@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {  
+    "email_form": {
+      "type": "string",
+      "minLength": 0
+    },
+    "name": {
+      "type": "string",
+      "minLength": 0
+    },
+    "mbr_cnt": {
+      "type": "number",
+      "minLength": 0
+    },
+    "cxn_cnt": {
+      "type": "number",
+      "minLength": 0
+    },
+    "post_cnt": {
+      "type": "number",
+      "minLength": 0
+    },
+    "com_cnt": {
+      "type": "number",
+      "minLength": 0
+    }
+  },
+  "example": {
+    "name": "sdfsdfsdfsdfsdf",
+    "mbr_cnt": 20,
+    "cxn_cnt": 5,
+    "post_cnt": 10,
+    "com_cnt": 3
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "이름"
+    },
+    "mbr_rank_idx": {
+      "type": "string",
+      "description": "이름"
+    },
+    "mbr_cnt": {
+      "type": "number",
+      "description": "회원개수"
+    },
+    "cxn_cnt": {
+      "type": "number",
+      "description": "접속개수"
+    },
+    "post_cnt": {
+      "type": "number",
+      "description": "게시글갯수"
+    },
+    "com_cnt": {
+      "type": "number",
+      "description": "코멘터리개수"
+    },
+    "srch_cnt": {
+      "type": "number",
+      "description": "검색개수"
+    },
+    "page": {
+      "type": "number",
+      "description": "페이지"
+    }
+  }
+}

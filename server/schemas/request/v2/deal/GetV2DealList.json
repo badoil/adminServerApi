@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "properties": {  
+      "term_start_dt_time": {
+        "type": "string",
+        "minLength":0
+      },
+      "term_end_dt_time": {
+        "type": "string",
+        "minLength":0
+      },
+      "goods_name": {
+        "type": "string",
+        "minLength":0   
+      },
+      "srch_cnt": {
+        "type": "string",
+        "minLength":0   
+      },
+      "page": {
+        "type": "number"
+      }
+    },
+    "example": {      
+      "deal_idx": 1
+    }
+  }

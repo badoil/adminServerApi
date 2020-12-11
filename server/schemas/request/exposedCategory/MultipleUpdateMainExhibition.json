@@ -1,0 +1,88 @@
+{
+    "type": "object",
+    "properties": {
+      "exhibitions" :{
+        "type": "array",
+        "minLength": 0,
+        "items": {
+          "type": "object",
+          "properties": {
+            "exp_cat_id": {
+              "type": "number",
+              "minLength":1    
+            },
+            "exp_seq": {
+              "type": "number",
+              "minLength":1    
+            },
+            "cat_depth": {
+              "type": "number",
+              "minLength":1    
+            },
+            "prnt_cat_id": {
+              "type": "number",
+              "minLength":1    
+            },
+            "cat_name": {
+              "type": "string",
+              "minLength":1    
+            },
+            "main_page_exp_or_not": {
+              "type": "string",
+              "minLength":1    
+            },
+            "appl_goods_list": {
+              "type": "string",
+              "minLength":1    
+            },
+            "first_create_user": {
+              "type": "string",
+              "minLength": 0
+            },
+            "first_create_dt_time": {
+              "type": "string",
+              "minLength": 0
+            },
+            "last_mod_user": {
+              "type": "string",
+              "minLength": 0
+            },
+            "last_mod_dt_time": {
+              "type": "string",
+              "minLength": 0
+            }
+          }
+        }
+      }
+    },
+    "example": {
+      "exhibitions": [
+        {
+            "exp_cat_id": 250,
+            "exp_seq": 8,
+            "cat_depth": 5,
+            "prnt_cat_id": 35,
+            "cat_name": "초유",
+            "main_page_exp_or_not": "N",
+            "appl_goods_list": 1,
+            "first_create_user": "홍길동",
+            "first_create_dt_time": "",
+            "last_mod_user": "홍길동",
+            "last_mod_dt_time": ""
+          },
+          {
+            "exp_cat_id": 251,
+            "exp_seq": 8,
+            "cat_depth": 5,
+            "prnt_cat_id": 35,
+            "cat_name": "엽산",
+            "main_page_exp_or_not": "N",
+            "appl_goods_list": 1,
+            "first_create_user": "홍길동",
+            "first_create_dt_time": "",
+            "last_mod_user": "홍길동",
+            "last_mod_dt_time": ""
+          }
+      ]
+    }
+  }

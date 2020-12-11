@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+      "popup_id": {
+        "type": "number"
+      }
+    },
+    "required": ["popup_id"]
+}

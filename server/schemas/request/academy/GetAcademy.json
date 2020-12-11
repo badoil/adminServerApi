@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "preRegister": {
+      "type": "string",
+      "minLength": 0
+    },
+    "title": {
+      "type": "string",
+      "minLength": 0
+    }
+
+  },
+  "example": {
+    "preRegister": "선등록"    
+  }
+}

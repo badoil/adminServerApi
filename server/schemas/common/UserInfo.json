@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "pw": {
+      "type": "string",
+      "minLength": 0
+    },
+    "signupType": {
+      "type": "string",
+      "enum": ["general", "kakao", "facebook","naver"]
+    },    
+    "userStatus": {
+      "type": "string",
+      "enum": ["active", "block", "del"],
+      "defaultValue": "active"
+    },
+    "recommendCode": {
+      "type": "string",
+      "minLength": 0
+    },
+    "userName": {
+      "type": "string",
+      "minLength": 0
+    },
+    "phoneNumber": {
+      "type": "string",
+      "minLength": 0
+    }    
+  }
+}

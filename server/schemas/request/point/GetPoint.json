@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "properties": {
+    "point_idx": {
+      "type": "number"
+    },
+    "term_start_dt": {
+      "type": "string",
+      "description":"기간시작날짜"
+    },
+    "term_end_dt": {
+      "type": "string"
+    },
+    "used_cat": {
+      "type": "string"
+    },
+    "srch_seq": {
+      "type": "string",
+      "description":"검색순서"
+    },
+    "srch_cnt": {
+      "type": "string",
+      "description":"검색개수"
+    },
+    "cont": {
+      "type": "string",
+      "description":"검색키워드"
+    },
+    "cust_idx": {
+      "type": "string",
+      "description":"검색키워드"
+    },
+    "srch_orderby": {
+      "type": "string",
+      "description":"검색기준"
+    },
+    "point_cat": {
+      "type": "number",
+      "description": "포인트카테고리"
+    },
+    "page": {
+      "type": "number"
+    }
+    
+  }
+}

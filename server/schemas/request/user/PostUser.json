@@ -1,0 +1,62 @@
+{
+  "type": "object",
+  "properties": {
+    "EMAIL": {
+      "type": "string",
+      "minLength": 0
+    },
+    "SIGNUP_TYPE": {
+      "type": "string",
+      "ENUM": [
+        "google",
+        "facebook",
+        "normal"
+      ]
+    },
+    "NAME": {
+      "type": "string",
+      "minLength": 0
+    },
+    "CELL": {
+      "type": "number",
+      "minLength": 0
+    },
+    "GENDER": {
+      "type": "string",
+      "enum": [
+        "M",
+        "W"
+      ]
+    },
+    "RANK": {
+      "type": "string",
+      "enum": [
+        "soldiar",
+        "knight",
+        "king",
+        "loc"
+      ]
+    },
+    "INTRODUCE": {
+      "type": "string",
+      "minLength": 0
+    },
+    "TYPE": {
+      "type": "string",
+      "enum": [
+        "teacher",
+        "normal"
+      ]
+    }
+  },
+  "example": {
+    "EMAIL": "test@naver.com",
+    "SIGNUP_TYPE": "google",
+    "NAME": "이름",
+    "CELL": "01020102030",
+    "GENDER": "M",
+    "RANK": "soldiar",
+    "INTRODUCE": "소개",
+    "TYPE": "teacher"
+  }
+}

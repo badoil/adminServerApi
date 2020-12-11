@@ -1,0 +1,68 @@
+{
+  "type": "object",
+  "properties": {  
+    "name": {
+      "type": "string",
+      "minLength":0    
+    },
+    "rep_name": {
+      "type": "string",
+      "minLength":0   
+    },
+    "biz_reg_num": {
+      "type": "string",
+      "minimum":0    
+    },
+    "hp_addr": {
+      "type": "string",
+      "minLength":0    
+    },
+    "mgr_name": {
+      "type": "string",
+      "minLength":0    
+    },
+    "mgr_pos": {
+      "type": "string",
+      "minLength":0    
+    },
+    "email": {
+      "type": "string",
+      "minLength":0    
+    },
+    "mobile": {
+      "type": "string",
+      "minLength":0   
+    },
+    "company_intro": {
+      "type": "string",
+      "minLength":0    
+    },
+    "goods_intro": {
+      "type": "string",
+      "minLength":0    
+    },
+    "attatch1": {
+      "type": "string",
+      "minLength":0    
+    },
+    "attatch2": {
+      "type": "string",
+      "minLength":0    
+    }
+  },
+  "example": {
+    "name":"이름",
+    "rep_name":"대표자 이름",
+    "biz_reg_num":"사업자번호",
+    "hp_addr":"홈페이지주소",
+    "mgr_name":"담당자 이름",
+    "mgr_pos":"담당자 직위",
+    "email":"이메일",
+    "mobile":"01039121098",
+    "company_intro":"회사정보",
+    "goods_intro":"상품정보",
+    "attatch1":"첨부1",
+    "attatch2":"첨부2"
+  }
+}
+

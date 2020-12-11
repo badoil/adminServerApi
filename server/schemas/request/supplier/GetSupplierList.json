@@ -1,0 +1,72 @@
+{
+  "type": "object",
+  "properties": {
+    "suppl_idx": {
+      "type": "number",
+      "description":"인덱스"
+    },
+    "term_start_dt": {
+      "type": "string",
+      "description":"기간시작날짜"
+    },
+    "term_end_dt": {
+      "type": "string"
+    },
+    "info_email_rcpt_or_not": {
+      "type": "number",
+      "description":"정보메일수신여부"
+    },
+    "sms_rcpt_or_not": {
+      "type": "number",
+      "description":"문자수신여부"
+    },
+    "srch_orderby": {
+      "type": "string",
+      "description":"검색기준"
+    },
+    "srch_seq": {
+      "type": "string",
+      "description":"검색순서"
+    },
+    "srch_cnt": {
+      "type": "number",
+      "description":"검색개수"
+    },
+    "name": {
+      "type": "string",
+      "description":"검색개수"
+    },
+    "company_base_addr": {
+      "type": "string",
+      "description":"검색개수"
+    },
+    "company_dets_addr": {
+      "type": "string",
+      "description":"검색개수"
+    },
+    "affiliation": {
+      "type": "string",
+      "description":"소속지부"
+    },
+    "charged_sv": {
+      "type": "string",
+      "description":"담당SV"
+    },
+    "srch_all": {
+      "type": "string",
+      "description":"전체 검색"
+    },
+    "suppl_id": {
+      "type": "string",
+      "description":"공급업체 아이디"
+    },
+    "suppl_code": {
+      "type": "string",
+      "description":"공급업체 코드"
+    },
+    "page": {
+      "type": "number",
+      "description":"페이지"
+    }
+  }
+}

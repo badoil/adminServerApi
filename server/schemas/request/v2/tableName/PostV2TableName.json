@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+      "admin_idx": {
+        "type": "string",
+        "minLength":1    
+      },
+      "tbl_name": {
+        "type": "string",
+        "minLength":1    
+      },
+      "first_create_user": {
+        "type": "string",
+        "minLength": 0
+      },
+      "first_create_dt_time": {
+        "type": "string",
+        "minLength": 0
+      },
+      "last_mod_user": {
+        "type": "string",
+        "minLength": 0
+      },
+      "last_mod_dt_time": {
+        "type": "string",
+        "minLength": 0
+      }
+    },
+    "example": {
+      "admin_idx": "1",
+      "tbl_name": "상품",
+      "first_create_user": "홍길동", 
+      "first_create_dt_time": "",
+      "last_mod_user":"홍길동",
+      "last_mod_dt_time": ""
+    }
+  }

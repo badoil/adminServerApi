@@ -1,0 +1,32 @@
+{
+    "type": "object",
+    "properties": {  
+      "term_start_dt": {
+        "type": "string",
+        "minLength":1    
+      },
+      "term_end_dt": {
+        "type": "string",
+        "minLength":1    
+      },
+      "brand_idx": {
+        "type": "number",
+        "minLength":1    
+      },
+      "brand_name": {
+        "type": "string",
+        "minLength":1    
+      },
+      "srch_cnt": {
+        "type": "number",
+        "minLength":1    
+      },
+      "page": {
+        "type": "string",
+        "minLength":1    
+      }
+    },
+    "example": {      
+      "brand_idx": 1
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "type": "object",
+    "properties": {
+        "deal_id": {
+            "type": "number",
+            "minLength": 0
+        },
+        "deal_opt_id": {
+            "type": "number",
+            "minLength": 0
+        },
+        "goods_id": {
+            "type": "number",
+            "minLength": 0
+        },
+        "qty_unit": {
+            "type": "number",
+            "minLength": 0
+        },
+        "goods_state_code": {
+            "type": "number",
+            "minLength": 0
+        },
+        "first_create_user": {
+            "type": "string",
+            "minLength": 0
+          },
+          "first_create_dt_time": {
+            "type": "string",
+            "minLength": 0
+          },
+          "last_mod_user": {
+            "type": "string",
+            "minLength": 0
+          },
+          "last_mod_dt_time": {
+            "type": "string",
+            "minLength": 0
+          }
+    },
+    "example": {
+        "deal_id": 1,
+        "deal_opt_id": 1,
+        "goods_id": 1,
+        "qty_unit": 50,
+        "goods_state_code": 1,
+        "first_create_user": "홍길동", 
+        "first_create_dt_time": "",
+        "last_mod_user":"홍길동",
+        "last_mod_dt_time": ""
+    }
+}

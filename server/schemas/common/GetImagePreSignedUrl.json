@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "mimetype": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["profile", "parkinglot", "car","ad"]
+    }
+  },
+  "required": ["mimetype", "type"]
+}

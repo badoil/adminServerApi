@@ -1,0 +1,117 @@
+{
+    "type": "object",
+    "properties": {
+        "deal_id_array" :{
+            "type": "array",
+            "minLength": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                "deal_id": {
+                    "type": "number",
+                    "minLength": 0
+                }
+              }
+            }
+        },
+        "exhib_id": {
+            "type": "number",
+            "minLength":0    
+        },
+        "exhib_classif_code": {
+            "type": "string",
+            "minLength":0    
+        },
+        "exhib_name": {
+            "type": "string",
+            "minLength":0    
+        },
+        "exhib_overview": {
+            "type": "string",
+            "minLength":0    
+        },
+        "exhib_main_banner_img": {
+            "type": "string",
+            "minLength":0    
+        },
+        "exhib_main_vert_img": {
+            "type": "string",
+            "minLength":0    
+        },
+        "exhib_horiz_img": {
+            "type": "string",
+            "minLength":0    
+        },
+        "exhib_sq_img": {
+            "type": "string",
+            "minLength":0    
+        },
+        "exhib_dets_info_img": {
+            "type": "string",
+            "minLength":0    
+        },
+        "exhib_thema_color": {
+            "type": "string",
+            "minLength":0    
+        },
+        "exhib_tag": {
+            "type": "string",
+            "minLength":0    
+        },
+        "banner_exp_or_not": {
+            "type": "string",
+            "minLength":0    
+        },
+        "main_page_exp_or_not": {
+            "type": "string",
+            "minLength":0    
+        },
+        "valid_start_dt": {
+            "type": "string",
+            "minLength":0    
+        },
+        "valid_end_dt": {
+            "type": "string",
+            "minLength":0    
+        },
+        "first_create_user": {
+            "type": "string",
+            "minLength": 0
+        },
+        "last_mod_user": {
+            "type": "string",
+            "minLength": 0
+        },
+        "last_mod_dt_time": {
+            "type": "string",
+            "minLength": 0
+        }
+    },
+    "example": {
+        "deal_id_array": [{
+            "deal_id": 2135
+        },{
+            "deal_id": 2137
+        },{
+            "deal_id": 2139
+        }],
+        "exhib_id": 6,
+        "exhib_classif_code": 2,
+        "exhib_name": "영양제 기획전",
+        "exhib_overview": "영양제 기획전 개요",
+        "exhib_main_banner_img": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+        "exhib_main_vert_img": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+        "exhib_horiz_img": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+        "exhib_sq_img": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+        "exhib_dets_info_img": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+        "exhib_thema_color": "#ecad57",
+        "exhib_tag": "#영양제",
+        "banner_exp_or_not": "Y",
+        "main_page_exp_or_not": "Y",
+        "valid_start_dt": "",
+        "valid_end_dt": "",
+        "first_create_user": "홍길동",
+        "last_mod_user": "홍길동",
+        "last_mod_dt_time": ""
+    }
+}

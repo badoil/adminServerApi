@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "exhib_id": {
+      "type": "number"
+    }
+  },
+  "required": ["exhib_id"]
+}

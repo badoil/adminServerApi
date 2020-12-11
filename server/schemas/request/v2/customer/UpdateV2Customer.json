@@ -1,0 +1,88 @@
+{
+    "type": "object",
+    "properties": {
+      "cust_id": {
+        "type": "string",
+        "minLength": 0
+      },
+      "name": {
+        "type": "string",
+        "minLength": 0
+      },
+      "email": {
+        "type": "string",
+        "minLength": 0
+      },
+      "password": {
+        "type": "string",
+        "minLength": 0
+      },
+      "mobile": {
+        "type": "string",
+        "minLength": 0
+      },
+      "info_email_rcpt_or_not": {
+        "type": "string",
+        "enum": [
+          "0",
+          "1"
+        ]
+      },
+      "sms_rcpt_or_not": {
+        "type": "string",
+        "enum": [
+          "0",
+          "1"
+        ]
+      },
+      "zip_code": {
+        "type": "string",
+        "minLength": 0
+      },
+      "base_addr": {
+        "type": "string",
+        "minLength": 0
+      },
+      "dets_addr": {
+        "type": "string",
+        "minLength": 0
+      },
+      "sex": {
+        "type": "string",
+        "minLength": 0
+      },
+      "total_pur_cnt": {
+        "type": "number",
+        "minLength": 0
+      },
+      "total_pur_amt": {
+        "type": "number",
+        "minLength": 0
+      },
+      "join_dt": {
+        "type": "string",
+        "minLength": 0
+      },
+      "latest_cxn_dt": {
+        "type": "string",
+        "minLength": 0
+      }
+    },
+    "example": {
+      "cust_id": "star",
+      "password": "1234",
+      "name": "홍길동",
+      "email": "star@naver.com",
+      "mobile": "01020102030",
+      "info_email_rcpt_or_not": "0",
+      "sms_rcpt_or_not": "0",
+      "zip_code": "224-30",
+      "base_addr": "서울",
+      "dets_addr": "서울 강남",
+      "sex": "0", 
+      "total_pur_cnt": 5,
+      "total_pur_amt": 50000,
+      "join_dt": "",
+      "latest_cxn_dt": ""
+    }
+  }

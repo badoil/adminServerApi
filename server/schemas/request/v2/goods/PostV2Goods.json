@@ -1,0 +1,302 @@
+{
+    "type": "object",
+    "properties": {
+      "goods_id": {
+        "type": "string",
+        "minLength": 0
+      },
+      "erp_code": {
+        "type": "string",
+        "minLength":0  
+      },
+      "sel_price": {
+        "type": "string",
+        "minLength": 0
+      },
+      "sel_price_code": {
+        "type": "string",
+        "minLength":0    
+      },
+      "pb_classif": {
+        "type": "string",
+        "minLength":0    
+      },
+      "erp_classif": {
+        "type": "string",
+        "minLength":0   
+      },
+      "sel_phar_classif": {
+        "type": "string",
+        "minLength":0    
+      },
+      "onr_goods_code": {
+        "type": "string",
+        "minLength": 0
+      },
+      "suppl_goods_code": {
+        "type": "string",
+        "minLength": 0
+      },
+      "exp_seq": {
+        "type": "string",
+        "minLength": 0
+      },
+      "suppl_code": {
+        "type": "string",
+        "minLength": 0
+      },
+      "repr_cat_id": {
+        "type": "string",
+        "minLength": 0
+      },
+      "goods_name": {
+        "type": "string",
+        "minLength":0   
+      },
+      "goods_overview": {
+        "type": "string",
+        "minLength":0    
+      },
+      "goods_state_code": {
+        "type": "string",
+        "minLength": 0
+      },
+      "stock_qty": {
+        "type": "string",
+        "minLength": 0
+      },
+      "md_com": {
+        "type": "string",
+        "minLength":0    
+      },
+      "dets_info": {
+        "type": "string",
+        "minLength":0    
+      },
+      "orig_price": {
+        "type": "string",
+        "minLength": 0
+      },
+      "deal_disc_price": {
+        "type": "string",
+        "minLength": 0
+      },
+      "sales_unit_price": {
+        "type": "string",
+        "minLength": 0
+      },
+      "pur_price": {
+        "type": "string",
+        "minLength": 0
+      },
+      "mfr_id": {
+        "type": "string",
+        "minLength": 0
+      },
+      "brand_id": {
+        "type": "string",
+        "minLength": 0
+      },
+      "goods_compo_unit_classif_code": {
+        "type": "string",
+        "minLength":0    
+      },
+      "goods_compo_qty": {
+        "type": "string",
+        "minLength":0    
+      },
+      "repr_img": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_img_1": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_img_2": {
+        "type": "string",
+        "minLength":0   
+      },
+      "add_img_3": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_img_4": {
+        "type": "string",
+        "minLength":0   
+      },
+      "add_img_5": {
+        "type": "string",
+        "minLength":0   
+      },
+      "add_img_6": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_img_7": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_img_8": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_img_9": {
+        "type": "string",
+        "minLength":0    
+      },
+      "repr_timg": {
+        "type": "string",
+        "minLength":0
+      },
+      "add_timg_1": {
+        "type": "string",
+        "minLength":0
+      },
+      "add_timg_2": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_timg_3": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_timg_4": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_timg_5": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_timg_6": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_timg_7": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_timg_8": {
+        "type": "string",
+        "minLength":0    
+      },
+      "add_timg_9": {
+        "type": "string",
+        "minLength":0    
+      },
+      "review_cnt": {
+        "type":"number",
+        "minLength":0
+      },
+      "pur_cnt": {
+        "type":"number",
+        "minLength":0
+      },
+      "ns_cxn_cat_id": {
+        "type": "string",
+        "minLength": 0
+      },
+      "sabang_cxn_cat_id": {
+        "type": "string",
+        "minLength": 0
+      },
+      "first_create_user": {
+        "type": "string",
+        "minLength": 0
+      },
+      "first_create_dt_time": {
+        "type": "string",
+        "minLength": 0
+      },
+      "last_mod_user": {
+        "type": "string",
+        "minLength": 0
+      },
+      "hot_deal_or_not": {
+        "type": "string",
+        "minLength": 0
+      },
+      "hot_deal_expr_ts": {
+        "type": "string",
+        "minLength": 0
+      },
+      "ac_tgt_goods_or_not": {
+        "type": "string",
+        "minLength": 0
+      },
+      "goods_size": {
+        "type": "string",
+        "minLength": 0
+      },
+      "max_acc_amt": {
+        "type": "string",
+        "minLength": 0
+      },
+      "deal_classif": {
+        "type": "string",
+        "minLength": 0
+      },
+      "deal_opt_id": {
+        "type": "number",
+        "minLength": 0
+      }
+    },
+    "example": {
+      "suppl_code": 84,
+      "erp_code": 1,
+      "sel_price_code": 1,
+      "pb_classif": 1,
+      "erp_classif": 1,
+      "sel_phar_classif": 1,
+      "onr_goods_code": 1, 
+      "suppl_goods_code": 1,
+      "exp_seq": 1,
+      "repr_cat_id": 1,
+      "goods_name": "[뉴트리디데이] 베이비 앤 키즈 프로폴리스 스프레이 대용량 500mg, 1개",
+      "goods_overview": "안국건강 베스트 1위상품",
+      "goods_state_code": 1,
+      "stock_qty": 500,
+      "md_com": "최고의 상품",
+      "dets_info": "프로폴리스",
+      "orig_price": 25000,
+      "deal_disc_price":0,
+      "sales_unit_price": 25000,
+      "pur_price": 25000,
+      "mfr_id": 1,
+      "brand_id": 1,
+      "goods_compo_unit_classif_code": 1,
+      "goods_compo_qty": 10,
+      "repr_img": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_4": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_5": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_6": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_7": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_8": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_img_9": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "repr_timg": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_1": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_2": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_3": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_4":"https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_5": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_6": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_7": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_8": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "add_timg_9": "https://onnuristorage.s3.ap-northeast-2.amazonaws.com/images/goods/always-1.png",
+      "review_cnt":50,
+      "pur_cnt": 400,
+      "ns_cxn_cat_id": 1,
+      "sabang_cxn_cat_id": 1, 
+      "hot_deal_or_not": "N", 
+      "hot_deal_expr_ts": "", 
+      "ac_tgt_goods_or_not": "N", 
+      "goods_size": "30정", 
+      "max_acc_amt": 300,
+      "deal_classif": 1,
+      "deal_opt_id": 1
+    }
+  }

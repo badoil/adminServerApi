@@ -1,0 +1,30 @@
+
+  {
+    "type": "object",
+    "properties": {  
+      "chargedSV": {
+        "type": "array",
+        "minLength": 0,
+        "items": {
+          "type": "object",
+          "properties": {
+            "sv_idx": {
+              "type": "string",
+              "minLength": 0
+            },
+            "name": {
+              "type": "string",
+              "minLength": 0            
+            }
+          }
+        }
+      }  
+    },
+    "example": {
+      "chargedSV": [
+        {"sv_idx": "2", "name": "test2"},
+        {"sv_idx": "3", "name": "test3"},
+        {"sv_idx": "4", "name": "test4"}      
+      ]
+    }
+  }

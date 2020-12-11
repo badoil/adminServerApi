@@ -1,0 +1,100 @@
+{
+    "type": "object",
+    "properties": {
+      "term_start_dt": {
+        "type": "string",
+        "description":"기간시작날짜"
+      },
+      "term_end_dt": {
+        "type": "string"
+      },
+      "latest_cxn_start_dt": {
+        "type": "string"
+      },
+      "latest_cxn_end_dt": {
+        "type": "string"
+      },
+      "order_start_dt": {
+        "type": "string"
+      },
+      "order_end_dt": {
+        "type": "string"
+      },
+      "cust_idx": {
+        "type": "string",
+        "description":"cust idx"
+      },
+      "cust_id": {
+        "type": "string",
+        "description":"cust_id"
+      },
+      "name": {
+        "type": "string",
+        "description":"name"
+      },
+      "email": {
+        "type": "string",
+        "description":"email"
+      },
+      "mobile": {
+        "type": "string",
+        "description":"mobile"
+      },
+      "base_addr": {
+        "type": "string",
+        "description":"base_addr"
+      },
+      "dets_addr": {
+        "type": "string",
+        "description":"dets_addr"
+      },
+      "sex": {
+        "type": "string",
+        "description":"sex"
+      },
+      "info_email_rcpt_or_not": {
+        "type": "string",
+        "description":"정보메일수신여부"
+      },
+      "sms_rcpt_or_not": {
+        "type": "string",
+        "description":"문자수신여부"
+      },
+      "lowest_point": {
+        "type": "string"
+      },
+      "highest_point": {
+        "type": "string"
+      },
+      "lowest_price": {
+        "type": "string"
+      },
+      "highest_price": {
+        "type": "string"
+      },
+      "lowest_purchase_count": {
+        "type": "string"
+      },
+      "highest_purchase_count": {
+        "type": "string"
+      },
+      "order_goods_name": {
+        "type": "string"
+      },
+      "srch_orderby": {
+        "type": "string",
+        "description":"검색기준"
+      },
+      "srch_seq": {
+        "type": "string",
+        "description":"검색순서"
+      },
+      "srch_cnt": {
+        "type": "string",
+        "description":"검색개수"
+      },
+      "page": {
+        "type": "number"
+      }
+    }
+  }

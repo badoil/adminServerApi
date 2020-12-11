@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {  
+      "idx": {
+        "type": "string",
+        "minLength":0
+      },
+      "tbl_name": {
+        "type": "string",
+        "minLength":0
+      }
+    }
+  }

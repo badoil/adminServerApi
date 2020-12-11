@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {  
+    "adminIdx": {
+      "type": "number",
+      "minimum":0    
+    },    
+    "type": {
+      "type": "string",
+      "enum": ["마스터", "운영관리자"]      
+    },
+    "title": {
+      "type": "string",
+      "minLength":1
+    },
+    "desc": {
+      "type": "string",
+      "minLength":1
+    },
+    "registerId": {
+      "type": "string",
+      "minLength":1
+    },
+    "registerName": {
+      "type": "string",
+      "minLength":1
+    }
+  },
+  "example": {
+    "adminIdx": 1,
+    "type": "마스터",
+    "title": "title",
+    "desc": "설명",
+    "registerId":"sdf",
+    "registerName": "??asdfdasdfsf"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "type": "object",
+  "properties": {
+    "phar_id": {
+      "type": "string",
+      "minLength": 0
+    },
+    "password": {
+      "type": "string",
+      "minLength": 0
+    },
+    "name": {
+      "type": "string",
+      "minLength": 0
+    },
+    "email": {
+      "type": "string",
+      "minLength": 0
+    },
+    "mbr_code": {
+      "type": "string",
+      "minLength": 0
+    },
+    "mobile": {
+      "type": "string",
+      "minLength": 0
+    },
+    "rfd_acc_bank_name":{
+      "type": "string",
+      "minLength": 0
+    },
+    "rfd_acc_num":{
+      "type": "string",
+      "minLength": 0
+    },
+    "rfd_acc_name": {
+      "type": "string",
+      "minLength": 0
+    },
+    "phar_name": {
+      "type": "string",
+      "minLength": 0
+    },
+    "chem_lic_num": {
+      "type": "number",
+      "minLength": 0
+    },
+    "care_instn_code": {
+      "type": "string",
+      "minLength": 0
+    },
+    "biz_classif_code": {
+      "type": "string",
+      "minLength": 0
+    },
+    "biz_reg_num": {
+      "type": "string",
+      "minLength": 0
+    },
+    "biz_stat":{
+      "type": "string",
+      "minLength": 0
+    },
+    "biz_type": {
+      "type": "string",
+      "minLength": 0
+    },
+    "phar_zip_code": {
+      "type": "string",
+      "minLength": 0
+    },
+    "phar_base_addr": {
+      "type": "string",
+      "minLength": 0
+    },
+    "phar_dets_addr": {
+      "type": "string",
+      "minLength": 0
+    },
+    "phar_phone": {
+      "type": "string",
+      "minLength": 0
+    },
+    "phar_fax": {
+      "type": "string",
+      "minLength": 0
+    },
+    "affiliation": {
+      "type": "string",
+      "minLength": 0
+    },
+    "charged_sv": {
+      "type": "string",
+      "minLength": 0
+    },
+    "phar_img_1": {
+      "type": "string",
+      "minLength": 0
+    },
+    "phar_img_2": {
+      "type": "string",
+      "minLength": 0
+    },
+    "phar_img_3": {
+      "type": "string",
+      "minLength": 0
+    },
+    "phar_img_4": {
+      "type": "string",
+      "minLength": 0
+    },
+    "phar_intro": {
+      "type": "string",
+      "minLength": 0
+    }
+  },
+  "example": {
+    "phar_id": "onnuri",
+    "password": "1234",
+    "name": "홍길동",
+    "email": "star@naver.com",
+    "mbr_code": "1",
+    "mobile": "01020102030",
+    "biz_classif_code": "2",
+    "biz_reg_num": "123",
+    "biz_stat": "약국",
+    "biz_type": "약국",
+    "phar_zip_code": "134-41",
+    "phar_base_addr": "서울",
+    "phar_dets_addr": "서울 강남",
+    "phar_phone": "024938152",
+    "phar_fax": "024352939",
+    "affiliation": "1",
+    "charged_sv": "이름",
+    "phar_img_1": "1",
+    "phar_img_2": "2",
+    "phar_img_3": "3",
+    "phar_img_4": "4",
+    "phar_intro": "5"
+  }
+}
